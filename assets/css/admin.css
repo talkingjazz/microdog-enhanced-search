@@ -1,0 +1,77 @@
+/**
+ * Microdog WooCommerce Enhanced Search - Admin Styles
+ */
+
+/* Weight fields styling */
+.microdog-weight-fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.microdog-weight-fields .weight-field {
+    display: flex;
+    flex-direction: column;
+    min-width: 120px;
+}
+
+.microdog-weight-fields .weight-field label {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.microdog-weight-fields .weight-field input {
+    width: 60px;
+}
+
+/* Tab styling */
+.nav-tab-wrapper {
+    margin-bottom: 15px;
+}
+
+.tab-content {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+/* Sections styling */
+.microdog-wces-cache-section,
+.microdog-wces-info-section {
+    margin-top: 25px;
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+}
+
+#microdog-wces-cache-message {
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+/* Settings page general styling */
+.form-table th {
+    padding: 15px 10px 15px 0;
+}
+
+.microdog-wces-info-section ul.ul-disc {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+/* Responsive design for weight fields */
+@media screen and (max-width: 782px) {
+    .microdog-weight-fields {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .microdog-weight-fields .weight-field {
+        width: 100%;
+    }
+}

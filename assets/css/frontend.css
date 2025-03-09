@@ -1,0 +1,28 @@
+/**
+ * Microdog WooCommerce Enhanced Search - Frontend Styles
+ */
+
+/* Exact match checkbox styling */
+.exact-match-checkbox {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+}
+
+.exact-match-checkbox input {
+    margin-right: 5px;
+}
+
+/* Match highlighting in search results */
+.woocommerce-product-search + p.search-highlight {
+    font-size: 0.85em;
+    margin-top: 5px;
+    color: #666;
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-product__title mark {
+    background-color: rgba(255, 255, 0, 0.3);
+    padding: 0 3px;
+    border-radius: 2px;
+}
